@@ -1,0 +1,49 @@
+[2024-07-17 16:15:25,484] INFO  * Restarting with stat - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:15:32,298] INFO  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.104:5001 (Press CTRL+C to quit) - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:15:32,304] INFO  * Restarting with stat - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:15:37,201] INFO 127.0.0.1 - - [17/Jul/2024 16:15:37] "GET /openapi/swagger HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:15:38,310] INFO 127.0.0.1 - - [17/Jul/2024 16:15:38] "[36mGET /openapi/static/js/swagger-ui-bundle.js HTTP/1.1[0m" 304 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:15:38,313] INFO 127.0.0.1 - - [17/Jul/2024 16:15:38] "[36mGET /openapi/static/js/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:15:38,317] INFO 127.0.0.1 - - [17/Jul/2024 16:15:38] "[36mGET /openapi/static/css/swagger-ui.css HTTP/1.1[0m" 304 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:15:38,488] INFO 127.0.0.1 - - [17/Jul/2024 16:15:38] "GET /openapi/openapi.json HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:15:38,537] INFO 127.0.0.1 - - [17/Jul/2024 16:15:38] "[36mGET /openapi/static/images/swagger.svg HTTP/1.1[0m" 304 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:15:46,975] INFO Requisição lista de todos games - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L85  
+[2024-07-17 16:15:46,976] INFO Carregando informações da lista de games - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L103 
+[2024-07-17 16:15:46,980] INFO Lista free to games encontrada(s): 398 - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L124 
+[2024-07-17 16:15:46,988] INFO 127.0.0.1 - - [17/Jul/2024 16:15:46] "GET /BuscaFreeToGameLista HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:16:33,560] INFO Requisição da lista de games filtro parte do título: god of - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L83  
+[2024-07-17 16:16:33,561] INFO Carregando informações da lista de games filtro parte do título: god of - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L101 
+[2024-07-17 16:16:33,564] INFO Lista free to games título god of encontrada(s): 0 - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L141 
+[2024-07-17 16:16:33,566] INFO 127.0.0.1 - - [17/Jul/2024 16:16:33] "GET /BuscaFreeToGameLista?liketitulo=god%20of HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:16:39,466] INFO Requisição da lista de games filtro parte do título: god - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L83  
+[2024-07-17 16:16:39,466] INFO Carregando informações da lista de games filtro parte do título: god - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L101 
+[2024-07-17 16:16:39,470] INFO Lista free to games título god encontrada(s): 4 - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L141 
+[2024-07-17 16:16:39,474] INFO 127.0.0.1 - - [17/Jul/2024 16:16:39] "GET /BuscaFreeToGameLista?liketitulo=god HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:16:53,631] INFO Requisição da lista de games filtro parte do título: war - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L83  
+[2024-07-17 16:16:53,632] INFO Carregando informações da lista de games filtro parte do título: war - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L101 
+[2024-07-17 16:16:53,634] INFO Lista free to games título war encontrada(s): 29 - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L141 
+[2024-07-17 16:16:53,636] INFO 127.0.0.1 - - [17/Jul/2024 16:16:53] "GET /BuscaFreeToGameLista?liketitulo=war HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:17:07,886] INFO Requisição da lista de games filtro parte do título: soccer - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L83  
+[2024-07-17 16:17:07,887] INFO Carregando informações da lista de games filtro parte do título: soccer - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L101 
+[2024-07-17 16:17:07,890] INFO Lista free to games título soccer encontrada(s): 0 - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L141 
+[2024-07-17 16:17:07,893] INFO 127.0.0.1 - - [17/Jul/2024 16:17:07] "GET /BuscaFreeToGameLista?liketitulo=soccer HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:17:17,335] INFO Requisição da lista de games filtro parte do título: player - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L83  
+[2024-07-17 16:17:17,336] INFO Carregando informações da lista de games filtro parte do título: player - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L101 
+[2024-07-17 16:17:17,341] INFO Lista free to games título player encontrada(s): 0 - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L141 
+[2024-07-17 16:17:17,344] INFO 127.0.0.1 - - [17/Jul/2024 16:17:17] "GET /BuscaFreeToGameLista?liketitulo=player HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:17:28,187] INFO Requisição da lista de games filtro parte do título: ten - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L83  
+[2024-07-17 16:17:28,188] INFO Carregando informações da lista de games filtro parte do título: ten - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L101 
+[2024-07-17 16:17:28,192] INFO Lista free to games título ten encontrada(s): 0 - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L141 
+[2024-07-17 16:17:28,194] INFO 127.0.0.1 - - [17/Jul/2024 16:17:28] "GET /BuscaFreeToGameLista?liketitulo=ten HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:17:35,009] INFO Requisição da lista de games filtro parte do título: ga - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L83  
+[2024-07-17 16:17:35,011] INFO Carregando informações da lista de games filtro parte do título: ga - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L101 
+[2024-07-17 16:17:35,014] INFO Lista free to games título ga encontrada(s): 18 - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L141 
+[2024-07-17 16:17:35,016] INFO 127.0.0.1 - - [17/Jul/2024 16:17:35] "GET /BuscaFreeToGameLista?liketitulo=ga HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:17:46,893] INFO Requisição da lista de games filtro parte do título: thro - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L83  
+[2024-07-17 16:17:46,894] INFO Carregando informações da lista de games filtro parte do título: thro - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L101 
+[2024-07-17 16:17:46,901] INFO Lista free to games título thro encontrada(s): 1 - call_trace=C:\Curso\PUC\Sprint-03\MVP\BACK-END\api-rest-gateway-externa\rotas\freetogamerotas.py L141 
+[2024-07-17 16:17:46,906] INFO 127.0.0.1 - - [17/Jul/2024 16:17:46] "GET /BuscaFreeToGameLista?liketitulo=thro HTTP/1.1" 200 - - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
+[2024-07-17 16:19:47,069] INFO  * Restarting with stat - call_trace=c:\curso\puc\sprint-03\mvp\back-end\api-rest-gateway-externa\env\lib\site-packages\werkzeug\_internal.py L224 
