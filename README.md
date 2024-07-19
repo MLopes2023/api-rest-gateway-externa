@@ -58,13 +58,15 @@
 
 - É imprescindível ter o Docker instalado e iniciado em seu computador.
 
-- Navegue para o diretório em que se encontram os arquivos Dockerfile e requirements.txt, executar como **administrador** o comando abaixo, para construção da imagem Docker:  
-
-  docker build -t api-rest-gateway-externa .
-
-- No mesmo diretório executar como **administrador** o comando abaixo, para execução do container:  
+- Após clonar o repositório, navegue para o diretório em que se encontram os arquivos Dockerfile e requirements.txt, executar como **administrador** os comandos abaixo, para construção da imagem Docker:  
   
-  docker run -p 5001:5001 api-rest-gateway-externa
+  - Construir imagem  Docker:
+ 
+    docker build -t api-rest-gateway-externa .
+
+  - Executar o container Docker, conectado à mesma rede da api api-rest-freegames e front-end-game:  
+  
+    docker run -d --name api-rest-gateway-externa --network minha_rede -p 5001:5001 api-rest-gateway-externa
 
 - API disponível e basta abrir o http://localhost:5001/#/ no navegador.
 
