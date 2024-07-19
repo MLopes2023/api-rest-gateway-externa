@@ -144,6 +144,3 @@ def busca_freetogame_lista(query: FreeToGameTituloBuscaSchema):
         returnerrormesage = ReturnErrorMesage(f"Erro fora do previsto na busca da lista de free to games", "Não foi possível efetuar a busca da lista free to game :/")
         logger.warning(f"{returnerrormesage.mesage}, {returnerrormesage.error_msg}")
         return {"mesage": returnerrormesage.mesage + "."}, 400
-  
-    
-    

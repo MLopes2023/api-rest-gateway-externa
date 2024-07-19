@@ -8,7 +8,7 @@ from flask_cors                             import CORS
 
 info = Info(title="API Gateway - Consumo de API's Externas", version="1.0.0")
 app = OpenAPI(__name__, info=info)
-CORS(app)
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=True) 
 
 ########################################################################################################
 # Definição das tags

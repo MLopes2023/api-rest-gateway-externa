@@ -6,6 +6,8 @@ from    schemas                 import *
 from    configuracao.config     import *
 
 # Buscar dados de um determinado cep
+
+# Buscar dados de um determinado cep
 @app.get('/BuscaCep', tags=[viacep_tag],
          responses={"200": ViaCepSchema, "400": ErrorSchema, "404": ErrorSchema})
 def busca_viacep(query: ViaCepIdBuscaSchema):
